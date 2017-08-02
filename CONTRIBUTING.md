@@ -1,10 +1,23 @@
 # Welcome to a SESYNC Training Event
 
-This document explains how to contribute work to your own GitHub repository, while keeping a link to the [SESYNC-ci/handouts] repo for any updates. So you get the right instructions, choose how you created your own copy of the repository:
+This document explains how to create and contribute to your own GitHub repository, including initializing the repository as a duplicate of [SESYNC-ci/handouts]. The steps below assume you will primarilly use the git version control system from with RStudio.
 
-- [I made a local clone of SESYNC-ci/handouts.](#local-clone)
-- [I *imported* SESYNC-ci/handouts on GitHub.](#github-import)
-- [I *forked* SESYNC-ci/handouts on GitHub.](#github-fork)
+1. [Create a RSA key pair on your computerand GitHub.](#create-rsa-key-pair-in-rstudio-and-github)
+1. [Import SESYNC-ci/handouts on GitHub.](#import-repository)
+1. [Create a new project within RStudio.](#create-rstudio-project)
+1. [Configure git.](#configure-git)
+
+## Create RSA Key Pair in RStudio and GitHub
+
+Follow [the instructions](http://adamwilson.us/RDataScience/GitSSHNotes.html#generating-a-ssh-key-in-rstudio) by Adam Wison.
+
+## Import Repository
+
+Use the repository importer with the "https://..." URL for [SEYSNC-ci/handouts]. Exclude large files if asked.
+
+## Create RStudio Project
+
+## Configure git
 
 ## Local Clone
 
