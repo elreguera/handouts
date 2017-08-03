@@ -13,7 +13,7 @@ Setting up an RSA key pair between your GitHub account and your computer allows 
 
 ## 2. Import Repository
 
-Make sure you are logged in to <github.com>. Then select "Import repository" from the drop-down menu labeled "+" in the upper right corner of the page. You will be directed to the [import page](https://github.com/new/import). In the space for "Your old repository’s clone URL" put in `https://github.com/sesync-ci/handouts.git`. During import, if asked about "large files", choose to exclude them.
+Make sure you are logged in to <https://github.com>. Then select "Import repository" from the drop-down menu labeled "+" in the upper right corner of the page. You will be directed to the [import page](https://github.com/new/import). In the space for "Your old repository’s clone URL" put in `https://github.com/sesync-ci/handouts.git`. During import, if asked about "large files", choose to exclude them.
 
 ## 3. Create RStudio Project
 
