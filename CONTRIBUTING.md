@@ -9,6 +9,8 @@ This document explains how to create and contribute to your own GitHub repositor
 
 ## Create RSA Key Pair in RStudio and GitHub
 
+![an example red dot](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==)
+
 Setting up an RSA key pair between your GitHub account and your computer allows you to access your repository on GitHub without a password when using git for version control. To set up a key pair, follow these detailed [instructions](http://adamwilson.us/RDataScience/GitSSHNotes.html#generating-a-ssh-key-in-rstudio) written out by Adam Wison, a professor of Geography from the University at Buffalo. **If you choose not to set up a key pair**, change any URL like `git@github.com:<username>/<repository>` to `https://github.com/<username>/<repository>/` in the instruction below.
 
 ## Import Repository
