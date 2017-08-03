@@ -17,13 +17,13 @@ Make sure you are logged in to <github.com>. Then select "Import repository" fro
 
 ## 3. Create RStudio Project
 
-Now that the "origin" repository exists under your account on GitHub, you need to create a "clone" on your computer. The clone of your repository is synonymous with an "RStudio project", so begin by selecting "New Project" from the RStudio tool bar. Create a new project from version control, using git, and enter your repository URL. The URL can be generated using the green "Clone or Download" button from your repository on GitHub. Name the project "handouts" and use the "Browse" button to select a location for the project folder.
+Now that the "origin" repository exists under your account on GitHub, you need to create a "clone" on your computer. The clone of your repository is synonymous with an "RStudio project", so begin by selecting "New Project" from the RStudio tool bar. Create a new project from version control, using git, and enter your repository URL. The URL can be generated using the green "Clone or Download" button from your repository on GitHub, but it should be `git@github.com:<username>/handouts`. Name the project "handouts" and use the "Browse" button to select a location for the project folder.
 
 ## 4. Configure git
 
 The first time you work with git on your computer, you should tell it your GitHub username and e-mail address. This allows the author associated with your commits to be recognized by GitHub. While your RStudio project is open, choose "Tools > Shell" from the toolbar. Put in the following two lines, with appropriate substitutions for your name and email:
 
-    git config --global user.name <name>
+    git config --global user.name <username>
     git config --global user.email <email>
     
 You should now be abble to commit and push to your GitHub repository from RStudio.
