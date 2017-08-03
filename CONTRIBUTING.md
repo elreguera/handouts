@@ -27,3 +27,5 @@ The first time you work with git on your computer, you should tell it your GitHu
     git config --global user.email <email>
     
 You should now be abble to commit and push to your GitHub repository from RStudio.
+
+[SESYNC-ci/handouts]:https://github.com/sesync-ci/handouts
